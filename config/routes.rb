@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :stars
+
+  get 'static_pages/home'
+
   resources :microposts
 
   resources :users
